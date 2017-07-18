@@ -1,0 +1,17 @@
+<div navsection></div>
+<!--====================== Start Main Content Section   ========================= -->
+<div class="container-fluid" ng-controller="registerController">
+    <div class="col-md-6">
+        <form class="form-horizontal" ng-submit="vm.onSubmit()">
+            <p><b>Create an Account or if you Already have an Account please <a href="#!login">Login</a> </b></p>
+            <div class="error">{{ vm.error }}</div>
+            <br>
+            <input id="vm.credentials.email" ng-model="vm.credentials.name" class="form-control" placeholder="Full Name" required="" autofocus="" type="text">
+            <input id="inputPassword" ng-model="vm.credentials.email" class="form-control" placeholder="E-mail Adderss" required="" type="email">
+            <input id="inputPassword" ng-model="vm.credentials.password" class="form-control" placeholder="Password" required="" type="password">
+            <button class="btn btn-lg btn-block" type="submit">Create Account</button>
+            <br />
+        </form>
+    </div>
+</div>
+<!--====================== End Main Content Section   ========================= -->

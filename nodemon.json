@@ -1,0 +1,6 @@
+{
+  "execMap": {
+     "sh": "sh"
+  },
+  "ignore": ["public/*"]
+}

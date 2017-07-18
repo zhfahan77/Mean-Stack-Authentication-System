@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="authentication">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/my.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div ng-view></div>
+    </div>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+    <script type="text/javascript" src="app/main/app.client.js"></script>
+    <script type="text/javascript" src="app/main/main.controller.js"></script>
+    <script type="text/javascript" src="app/login/login.controller.js"></script>
+    <script type="text/javascript" src="app/register/register.controller.js"></script>
+    <script type="text/javascript" src="app/private/private.controller.js"></script>
+    <script type="text/javascript" src="app/auth/auth.service.js"></script>
+    <script type="text/javascript" src="app/auth/auth.interceptor.js"></script>
+</body>
+
+</html>
