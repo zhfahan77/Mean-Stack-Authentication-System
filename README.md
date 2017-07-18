@@ -1,4 +1,4 @@
-# loginSystemMeanStack
+# Mean-Stack-Login-Register-Logout-System
 MEAN STACK Login/Register/Logout System With JSON Web Token based Authentication
 
 This Includes Login, Register and Logout System with Frontend in Angular js
