@@ -1,6 +1,6 @@
 angular.module('authentication', ['ngRoute']).config(config).run(run);
 
-function config($routeProvider, $httpProvider) {
+function config($routeProvider, $httpProvider, $locationProvider) {
 
     $httpProvider.interceptors.push('AuthInterceptor');
 
@@ -31,6 +31,9 @@ function config($routeProvider, $httpProvider) {
             redirectTo: '/404',
             templateUrl: 'app/main/404.html'
         });
+    
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('');
 }
 
 function run($rootScope, $location, authentication) {
