@@ -3,7 +3,7 @@
 <div class="container-fluid" ng-controller="loginController" ng-init="vm.init()">
     <div class="col-md-6">
         <form ng-submit="vm.onSubmit()">
-            <p><b>Login to your Account or if you Dont have an Account please <a href="#!register">Register</a> </b></p>
+            <p><b>Login to your Account or if you Dont have an Account please <a href="register">Register</a> </b></p>
             <div>{{ vm.error }}</div>
             <br>
             <input id="inputEmail" ng-model="vm.credentials.email" class="form-control" placeholder="abc@gmail.com" required="" autofocus="" type="email">
